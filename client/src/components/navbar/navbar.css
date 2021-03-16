@@ -1,0 +1,23 @@
+.navbar {
+  background: #5D576B;
+  color: white;
+  height: 3vh, 2.5rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-link {
+  list-style: none;
+  /* flex-direction: row; */
+  flex-wrap:nowrap;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding-right: 80px;
+
+
+}
