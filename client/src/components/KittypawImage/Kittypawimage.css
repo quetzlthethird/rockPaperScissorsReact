@@ -1,0 +1,41 @@
+.kittypawImage {
+  /* border: 10px black solid; */
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  background-color:#fce3db ;
+  justify-content: center;
+}
+
+.kittypawImage >img {
+  border: 2px black solid;
+  max-width: 60%;
+  /* max-height: auto; */
+}
+
+.kittypawContainer {
+  border: 2px blue solid;
+  /* max-width: 60%; */
+  display: flex;
+  flex-direction: row;
+  margin: 0% 20%;
+  justify-content: center;
+}
+
+.kittypawRock {
+  border: 2px red solid;
+  height: 200px;
+  width: 30%;
+}
+
+.kittypawPaper {
+  border: 2px red solid;
+  height: 200px;
+  width: 30%;
+}
+
+.kittypawScissors {
+  border: 2px red solid;
+  height: 200px;
+  width: 30%;
+}
