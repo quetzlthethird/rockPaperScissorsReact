@@ -11,11 +11,18 @@ export default class Kittypawimage extends Component {
         <div className="kittypawContainerAll">
 
           <div className="kittypawImage"
-            style = {{ backgroundImage: `url(${process.env.PUBLIC_URL +'/paw-sign-of-rock-paper-scissors-game.svg'})` }}
+            // style = {{ backgroundImage: `url(${process.env.PUBLIC_URL +'/paw-sign-of-rock-paper-scissors-game.svg'})` }}
           >
-            
-          </div>
 
+          </div>
+          <div className="kittypawContainer">
+            
+            <div><a href="/rock" className="kittypaw"></a></div>
+            {/* <div className="kittypaw"><a href="/rock">ROCKS</a></div> */}
+            <div ><a href="/paper" className="kittypaw"></a></div>
+            <div ><a href="/scissors" className="kittypaw"></a></div>
+            {/* <button></button> */}
+          </div>
             
         </div> 
 

@@ -1,35 +1,32 @@
 .kittypawImage {
-  /* border: 10px black solid; */
+  /* border: 1px black solid; */
   display: flex;
-  max-width: 100%;
-  height: 45em;
-  background-color:#fce3db ;
   justify-content: center;
-
-  
+  max-width: 100%;
+  max-height: 50%;
+  height: 35em;
+  background-image: url(paw-sign-of-rock-paper-scissors-game.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0% 20%;
 }
+
 .kittypawImage >img {
-  border: 2px black solid;
+  /* border: 2px black solid; */
   max-width: 60%;
   position: relative;
 }
 
 .kittypawContainerAll {
-  border: 15px red solid;
-  /* display: flex;
-  flex-direction: column; */
-
-   /* background-image: `url(${process.env.PUBLIC_URL +'/paw-sign-of-rock-paper-scissors-game.svg'})`; */
-   /* url('paw-sign-of-rock-paper-scissors-game.svg'); */
- 
+  background:#fce3db ;
 }
 
-/* `url(${process.env.PUBLIC_URL + '/image.png'})` */
 .kittypawContainer {
-  border: 2px blue solid;
-  max-width: 60%;
+  /* border: 2px blue solid; */
+  /* max-width: 60%; */
   width: 60%;
-  height: 600px;
+  height: 450px;
   max-height: 900px;
   display: flex;
   flex-direction: row;
@@ -37,27 +34,30 @@
   margin: 0% 20%;
   justify-content: center;
 
-
   position: absolute;
   top: 10%;
-
-  
 }
 
 
-
-
-.kittypawContainer > button {
-  border: 2px green solid;
-
-  /* color:white; */
-  /* background-color: none; */
-  /* text-decoration: none; */
-  /* opacity: 0; */
-  width: 30%;
+.kittypaw {
+  /* border: 2px green solid; */
+  color:white;
+  text-decoration: none;
+  /* width: 250px; */
+  /* width: 6.75em; */
+  width: 225px;
+  height: 450px;
   transition-duration: 0.4s;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* PADDING: 0% 60%; */
+  /* margin: 0 10%; */
 }
 
-.button:hover {
+/* .kittypaw:hover {
   background-color: #6dcebc;
-}
+  opacity: 50%;
+} */
